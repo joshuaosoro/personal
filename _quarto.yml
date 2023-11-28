@@ -1,0 +1,40 @@
+project:
+  type: website
+
+website:
+  title: "Joshua Osoro"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: index.qmd#"web_developer"
+        text: Web developer
+      - href: index.qmd#contact
+        text: Contact
+
+
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/@joshuaosoro 
+
+  page-footer: 
+    background: light
+    center: 
+      - text: joshua osoro 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/@joshuaosoro
+
+        
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

@@ -1,0 +1,51 @@
+---
+title: "Expertise, Data Science"
+---
+
+## Qualitative Data
+
+### Transcription Services
+
+Indulge in **fast** and **accurate** transcription services tailored just for you. I prioritize precision and efficiency, delivering timely transcriptions for your diverse content needs. Trust in my commitment to excellence as I transform your audio into crisp and clear written text with speed and accuracy.
+
+### Qualitative Data Analysis
+
+I specialize in qualitative data analysis using cutting-edge tools such as **NVivo**, **MaxQDA**, **Dedoose**, and **Atlas.ti**. Employing these robust platforms, I uncover rich insights from diverse qualitative data sources, facilitating a nuanced understanding of themes, patterns, and trends. My expertise in these tools ensures a meticulous and systematic approach, enabling clients to derive meaningful narratives and actionable findings from their qualitative data.
+
+## Quantitative Data 
+
+### Data Collection Tools
+
+I craft customized data collection apps using industry-leading platforms such as **ODK**, **SurveyCTO**, **KOBO**, and **CommCare**. These apps streamline and optimize the data collection process, ensuring accuracy and efficiency in field surveys, research, and monitoring. With user-friendly interfaces and seamless integration, my solutions empower clients to collect, manage, and analyze data effortlessly, enhancing the overall effectiveness of their projects and initiatives.
+
+### Quantitative Data Analysis
+
+Elevate your data-driven decision-making with my comprehensive data analytics services. I specialize in harnessing the power of **R**, **Excel**, and **Python** to extract meaningful insights from your datasets. Whether it's advanced statistical analysis, predictive modeling, or custom data solutions, I bring a versatile skill set to optimize your business intelligence and empower strategic choices.
+
+## Data visualization
+
+Harnessing the art of data storytelling, I specialize in dynamic visualizations using **R**, **Python**, **Power BI**, and **Excel**. 
+
+```{r echo=FALSE}
+library(ggplot2)
+library(palmerpenguins)
+options(repr.plot.width = 2, repr.plot.height = 5)
+
+penguins |> 
+    dplyr::filter(!is.na(sex)) |>
+    ggplot(aes(species, bill_length_mm,fill = species))+ 
+    ggdist::stat_halfeye() + facet_wrap(~sex) + coord_flip()
+```
+From crafting intricate plots with R to designing interactive dashboards and reports with Power BI and Excel, my expertise lies in transforming raw data into visually compelling insights. Elevate your data narrative with my proficiency in creating impactful visualizations across diverse platforms.
+
+## Web developer
+
+Elevate your online presence with my comprehensive web development services. From crafting visually stunning and user-friendly websites to implementing robust backend solutions, I specialize in delivering a seamless digital experience. Whether it's building a responsive design, optimizing performance, or creating custom web applications, I'm dedicated to bringing your vision to life on the web.
+
+## Contact
+
+Connect with confidence – I am your dedicated data analyst, offering expert insights and solutions tailored to your business needs. I bring a wealth of experience to transform your raw data into actionable intelligence. Let's collaborate to unlock the full potential of your data and drive informed decision-making for your success. 
+
+Phone: +254725587689
+
+Email: joshuaosoro@gmail.com
