@@ -7,7 +7,11 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: Qualitative Data Analysis
+      - href: index.qmd#"quantitative data"
+        text: Quantitative Data Analysis
+      - href: index.qmd#"data visualization"
+        text: Data visualization
       - href: index.qmd#"web_developer"
         text: Web developer
       - href: index.qmd#contact
@@ -18,7 +22,7 @@ website:
       - icon: github
         href: https://github.com/
       - icon: twitter 
-        href: https://twitter.com/@joshuaosoro 
+        href: https://twitter.com/joshuaosoro 
 
   page-footer: 
     background: light
