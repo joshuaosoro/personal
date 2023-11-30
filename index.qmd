@@ -1,7 +1,8 @@
 ---
-title: "Expertise, Data Science"
+title: ""
 ---
 
+:::{#qualitative-data}
 ## Qualitative Data
 
 ### Transcription Services
@@ -11,7 +12,9 @@ Indulge in **fast** and **accurate** transcription services tailored just for yo
 ### Qualitative Data Analysis
 
 I specialize in qualitative data analysis using cutting-edge tools such as **NVivo**, **MaxQDA**, **Dedoose**, and **Atlas.ti**. Employing these robust platforms, I uncover rich insights from diverse qualitative data sources, facilitating a nuanced understanding of themes, patterns, and trends. My expertise in these tools ensures a meticulous and systematic approach, enabling clients to derive meaningful narratives and actionable findings from their qualitative data.
+:::
 
+:::{quantitative-data}
 ## Quantitative Data 
 
 ### Data Collection Tools
@@ -21,7 +24,9 @@ I craft customized data collection apps using industry-leading platforms such as
 ### Quantitative Data Analysis
 
 Elevate your data-driven decision-making with my comprehensive data analytics services. I specialize in harnessing the power of **R**, **Excel**, and **Python** to extract meaningful insights from your datasets. Whether it's advanced statistical analysis, predictive modeling, or custom data solutions, I bring a versatile skill set to optimize your business intelligence and empower strategic choices.
+:::
 
+:::{#data-visualization}
 ## Data visualization
 
 Harnessing the art of data storytelling, I specialize in dynamic visualizations using **R**, **Python**, **Power BI**, and **Excel**. 
@@ -37,15 +42,21 @@ penguins |>
     ggdist::stat_halfeye() + facet_wrap(~sex) + coord_flip()
 ```
 From crafting intricate plots with R to designing interactive dashboards and reports with Power BI and Excel, my expertise lies in transforming raw data into visually compelling insights. Elevate your data narrative with my proficiency in creating impactful visualizations across diverse platforms.
+:::
 
-## Web developer
 
+::: {#developer}
+## Web developer 
 Elevate your online presence with my comprehensive web development services. From crafting visually stunning and user-friendly websites to implementing robust backend solutions, I specialize in delivering a seamless digital experience. Whether it's building a responsive design, optimizing performance, or creating custom web applications, I'm dedicated to bringing your vision to life on the web.
+:::
 
-## Contact
+:::{#contact}
+## Contact 
 
 Connect with confidence – I am your dedicated data analyst, offering expert insights and solutions tailored to your business needs. I bring a wealth of experience to transform your raw data into actionable intelligence. Let's collaborate to unlock the full potential of your data and drive informed decision-making for your success. 
 
 Phone: +254725587689
 
 Email: joshuaosoro@gmail.com
+:::
+

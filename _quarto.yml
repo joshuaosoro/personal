@@ -8,14 +8,15 @@ website:
     left:
       - href: index.qmd
         text: Qualitative Data Analysis
-      - href: index.qmd#"quantitative data"
+      - href: index.qmd#quantitative-data
         text: Quantitative Data Analysis
-      - href: index.qmd#"data visualization"
-        text: Data visualization
-      - href: index.qmd#"web_developer"
-        text: Web developer
+      - href: index.qmd#data-visualization
+        text: Data visualization      
+      - href: index.qmd#developer  
+        text: Web Developer
       - href: index.qmd#contact
         text: Contact
+      
 
 
     right: 
@@ -37,7 +38,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: litera
     css: styles.css
     toc: true
 
