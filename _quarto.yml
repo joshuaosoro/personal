@@ -16,23 +16,23 @@ website:
         text: Web Developer
       - href: index.qmd#contact
         text: Contact
-      
-
 
     right: 
       - icon: github
-        href: https://github.com/
+        href: https://github.com/joshuaosoro
       - icon: twitter 
-        href: https://twitter.com/joshuaosoro 
+        href: https://twitter.com/@joshuaosoro 
 
   page-footer: 
     background: light
-    center: 
+    left: 
       - text: joshua osoro 
+    right:       
       - icon: github
-        href: https://github.com/
+        href: https://github.com/joshuaosoro
       - icon: twitter 
         href: https://twitter.com/@joshuaosoro
+      
 
         
 
